@@ -7,7 +7,7 @@
  *
  * deDuplication(arr)
  * // => [1, 2, 11, 32, 3]
-*/
+ */
 
 function deDuplication(arr) {
 	return [...(new Set(arr))]

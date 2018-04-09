@@ -20,7 +20,7 @@
  * 	 [ 'age', 10, { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ],
  * 	 [ 'skills', [ 'node', 'vue', 'javascript' ], { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ] 
  * ]
-*/
+ */
 
 function obj2Arr(obj, iteratee) {
 	let arr = []
