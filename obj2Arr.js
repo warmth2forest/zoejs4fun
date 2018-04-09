@@ -7,18 +7,18 @@
  * 
  * @returns {Array} 返回一个新数组
  * let obj = {
- * 	   name: 'warmth',
- * 	   age: 10,
- * 	   skills: ['node', 'vue', 'javascript']
+ * 	 name: 'warmth',
+ * 	 age: 10,
+ * 	 skills: ['node', 'vue', 'javascript']
  * }
  * obj2Arr(obj, (key, value, obj) => {
- *     return [key, value, obj]
+ *   return [key, value, obj]
  * })
 
  * @output: [ 
- * 	   [ 'name', 'warmth', { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ],
- * 	   [ 'age', 10, { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ],
- * 	   [ 'skills', [ 'node', 'vue', 'javascript' ], { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ] 
+ * 	 [ 'name', 'warmth', { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ],
+ * 	 [ 'age', 10, { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ],
+ * 	 [ 'skills', [ 'node', 'vue', 'javascript' ], { name: 'warmth', age: 10, skills: ['node', 'vue', 'javascript'] } ] 
  * ]
 */
 

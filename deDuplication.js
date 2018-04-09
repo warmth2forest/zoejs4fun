@@ -13,4 +13,4 @@ function deDuplication(arr) {
 	return [...(new Set(arr))]
 }
 
-export default deDuplication
+export default deDuplication 
